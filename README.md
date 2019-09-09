@@ -8,6 +8,7 @@
 - MicroSD Card (32GB)
 
 ### Software
+- [Raspbian Buster with desktop and recommended software](https://www.raspberrypi.org/downloads/raspbian/) 
 
 ## Setup
 1. Plug SD card into laptop
@@ -48,3 +49,7 @@
    $ touch $SD_FILES/ssh # enables ssh
    ```
 7. Eject the disk `sudo diskutil eject /dev/disk$SD_DISK_NUM`
+
+## Accessing Pi without internet
+
+
